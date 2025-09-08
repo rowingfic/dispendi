@@ -15,6 +15,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            padding: 1rem;
         }
         .container {
             background-color: white;
@@ -75,101 +76,7 @@
     <div class="input-group">
         <label for="nameSelect">Seleziona un nome:</label>
         <select id="nameSelect" class="w-full" onchange="findTime()">
-            <option value="">Seleziona un nome...</option>
-            <option value="ABAGNALE">ABAGNALE</option>
-            <option value="ABBAGNALE">ABBAGNALE</option>
-            <option value="ALBORGHETTI">ALBORGHETTI</option>
-            <option value="ANGELLA">ANGELLA</option>
-            <option value="ANIELLO">ANIELLO</option>
-            <option value="ASCALONE">ASCALONE</option>
-            <option value="BELGERI">BELGERI</option>
-            <option value="BELLOMO">BELLOMO</option>
-            <option value="BENVENUTI">BENVENUTI</option>
-            <option value="BIZZOZERO">BIZZOZERO</option>
-            <option value="BOLDRINO">BOLDRINO</option>
-            <option value="BONAMONETA">BONAMONETA</option>
-            <option value="BORIELLO">BORIELLO</option>
-            <option value="BOSIO">BOSIO</option>
-            <option value="BOTTIGNON">BOTTIGNON</option>
-            <option value="BUMBACA">BUMBACA</option>
-            <option value="CAPPONI">CAPPONI</option>
-            <option value="CARUCCI">CARUCCI</option>
-            <option value="CESARINI">CESARINI</option>
-            <option value="CHIUMIENTO">CHIUMIENTO</option>
-            <option value="CIAVARRO">CIAVARRO</option>
-            <option value="CODATO G">CODATO G</option>
-            <option value="CODATO A">CODATO A</option>
-            <option value="COLASANTE">COLASANTE</option>
-            <option value="CARAMASCHI">CARAMASCHI</option>
-            <option value="COMINI">COMINI</option>
-            <option value="COVINI">COVINI</option>
-            <option value="CUZZOCREA">CUZZOCREA</option>
-            <option value="DE FILIPPIS">DE FILIPPIS</option>
-            <option value="DELLA VALLE">DELLA VALLE</option>
-            <option value="DI COLANDREA">DI COLANDREA</option>
-            <option value="DI MAURO">DI MAURO</option>
-            <option value="FRIGERIO">FRIGERIO</option>
-            <option value="GAETANI LISEO">GAETANI LISEO</option>
-            <option value="GANDOLA">GANDOLA</option>
-            <option value="GATTI">GATTI</option>
-            <option value="GLIA">GLIA</option>
-            <option value="GENTILI">GENTILI</option>
-            <option value="GARDINO">GARDINO</option>
-            <option value="GNATTA">GNATTA</option>
-            <option value="GOBBI">GOBBI</option>
-            <option value="GUERRA">GUERRA</option>
-            <option value="KIRIKOHL">KIRIKOHL</option>
-            <option value="LICATOSI">LICATOSI</option>
-            <option value="LODO">LODO</option>
-            <option value="MARVUCIC">MARVUCIC</option>
-            <option value="MELEGARI">MELEGARI</option>
-            <option value="MERIANO">MERIANO</option>
-            <option value="MERLINI">MERLINI</option>
-            <option value="MONACI">MONACI</option>
-            <option value="MONDELLI">MONDELLI</option>
-            <option value="MONFRECOLA">MONFRECOLA</option>
-            <option value="MULAS">MULAS</option>
-            <option value="MUMOLO">MUMOLO</option>
-            <option value="NICHIFOR">NICHIFOR</option>
-            <option value="OPPO">OPPO</option>
-            <option value="PALLOZZI">PALLOZZI</option>
-            <option value="PANIZZA">PANIZZA</option>
-            <option value="PAPPALEPORE">PAPPALEPORE</option>
-            <option value="PAPPALETTERA">PAPPALETTERA</option>
-            <option value="PAZZAGLI">PAZZAGLI</option>
-            <option value="PEDROLA">PEDROLA</option>
-            <option value="PELACCHI">PELACCHI</option>
-            <option value="PERETTI">PERETTI</option>
-            <option value="PIETRA CAPRINA">PIETRA CAPRINA</option>
-            <option value="PRATI">PRATI</option>
-            <option value="RAMBALDI">RAMBALDI</option>
-            <option value="RAMELLA">RAMELLA</option>
-            <option value="RENZI">RENZI</option>
-            <option value="RICELLI">RICELLI</option>
-            <option value="ROCCHI">ROCCHI</option>
-            <option value="ROCEK">ROCEK</option>
-            <option value="ROCEK P">ROCEK P</option>
-            <option value="RODINI">RODINI</option>
-            <option value="ROSSI">ROSSI</option>
-            <option value="RUTA">RUTA</option>
-            <option value="SANDRINI">SANDRINI</option>
-            <option value="SARTORI">SARTORI</option>
-            <option value="SCALZONE">SCALZONE</option>
-            <option value="SCIATTELLA">SCIATTELLA</option>
-            <option value="SCOLARO">SCOLARO</option>
-            <option value="SELVA">SELVA</option>
-            <option value="SOARES">SOARES</option>
-            <option value="SOLDO">SOLDO</option>
-            <option value="SORRENTINO">SORRENTINO</option>
-            <option value="SPIRITO">SPIRITO</option>
-            <option value="TEDOLDI">TEDOLDI</option>
-            <option value="TERRAZZI">TERRAZZI</option>
-            <option value="TIMPANARO">TIMPANARO</option>
-            <option value="TORRE">TORRE</option>
-            <option value="VERITà">VERITà</option>
-            <option value="VICINO G">VICINO G</option>
-            <option value="VICINO L">VICINO L</option>
-            <option value="VICINO M">VICINO M</option>
+            <option value="">Caricamento dati...</option>
         </select>
     </div>
     
@@ -186,28 +93,28 @@
     </div>
     
     <div class="input-group mt-6">
-    <label for="percentageSelect">Seleziona una percentuale:</label>
-    <select id="percentageSelect" class="w-full" onchange="calculateWattsWithPercentage()">
-        <option value="">Seleziona una percentuale...</option>
-        <option value="50">50%</option>
-        <option value="55">55%</option>
-        <option value="60">60%</option>
-        <option value="65">65%</option>
-        <option value="70">70%</option>
-        <option value="75">75%</option>
-        <option value="80">80%</option>
-        <option value="85">85%</option>
-        <option value="90">90%</option>
-        <option value="95">95%</option>
-        <option value="100">100%</option>
-        <option value="105">105%</option>
-        <option value="110">110%</option>
-        <option value="115">115%</option>
-        <option value="120">120%</option>
-        <option value="125">125%</option>
-        <option value="130">130%</option>
-    </select>
-</div>
+        <label for="percentageSelect">Seleziona una percentuale:</label>
+        <select id="percentageSelect" class="w-full" onchange="calculateWattsWithPercentage()">
+            <option value="">Seleziona una percentuale...</option>
+            <option value="50">50%</option>
+            <option value="55">55%</option>
+            <option value="60">60%</option>
+            <option value="65">65%</option>
+            <option value="70">70%</option>
+            <option value="75">75%</option>
+            <option value="80">80%</option>
+            <option value="85">85%</option>
+            <option value="90">90%</option>
+            <option value="95">95%</option>
+            <option value="100">100%</option>
+            <option value="105">105%</option>
+            <option value="110">110%</option>
+            <option value="115">115%</option>
+            <option value="120">120%</option>
+            <option value="125">125%</option>
+            <option value="130">130%</option>
+        </select>
+    </div>
 
     <div id="percentage-time-result-container" class="result-container mt-4">
         Tempo dispendio
@@ -220,118 +127,26 @@
     <div id="percentage-watt-result-container" class="result-container mt-4">
         Watt - dispendio
     </div>
-
 </div>
 
 <script>
-    // Global variable to store the base watts (100%)
+    // Variabile globale per memorizzare i dati caricati dal Google Sheet
+    let times = {};
+    // Variabile globale per memorizzare i Watt base (100%)
     let baseWatts = 0;
 
-    // Dati dei nomi e dei tempi
-    const times = {
-        "ABAGNALE": "05:52.0",
-        "ABBAGNALE": "05:57.0",
-        "ALBORGHETTI": "05:59.0",
-        "ANGELLA": "06:04.9",
-        "ANIELLO": "05:55.0",
-        "ASCALONE": "07:16.0",
-        "BELGERI": "06:03.0",
-        "BELLOMO": "05:58.3",
-        "BENVENUTI": "07:10.0",
-        "BIZZOZERO": "06:03.4",
-        "BOLDRINO": "07:17.0",
-        "BONAMONETA": "06:00.2",
-        "BORIELLO": "06:58.7",
-        "BOSIO": "06:56.0",
-        "BOTTIGNON": "07:04.0",
-        "BUMBACA": "06:51.0",
-        "CAPPONI": "00:00.0",
-        "CARUCCI": "05:55.0",
-        "CESARINI": "07:04.8",
-        "CHIUMIENTO": "05:52.0",
-        "CIAVARRO": "06:01.2",
-        "CODATO G": "05:59.6",
-        "CODATO A": "06:41.9",
-        "COLASANTE": "06:59.0",
-        "CARAMASCHI": "06:04.0",
-        "COMINI": "05:57.2",
-        "COVINI": "06:04.0",
-        "CUZZOCREA": "07:03.7",
-        "DE FILIPPIS": "07:05.0",
-        "DELLA VALLE": "05:59.7",
-        "DI COLANDREA": "06:00.0",
-        "DI MAURO": "05:40.0",
-        "FRIGERIO": "05:56.0",
-        "GAETANI LISEO": "05:56.0",
-        "GANDOLA": "05:58.6",
-        "GATTI": "07:15.1",
-        "GLIA": "07:15.1",
-        "GENTILI": "05:50.0",
-        "GARDINO": "06:07.8",
-        "GNATTA": "06:57.0",
-        "GOBBI": "06:55.0",
-        "GUERRA": "06:54.5",
-        "KIRIKOHL": "07:00.0",
-        "LICATOSI": "06:03.2",
-        "LODO": "05:56.0",
-        "MARVUCIC": "06.01",
-        "MELEGARI": "06:05.7",
-        "MERIANO": "06:48.0",
-        "MERLINI": "07:09.0",
-        "MONACI": "07:06.0",
-        "MONDELLI": "06:49.0",
-        "MONFRECOLA": "05:55.0",
-        "MULAS": "06:12.0",
-        "MUMOLO": "05:56.0",
-        "NICHIFOR": "07:00.0",
-        "OPPO": "06:03.8",
-        "PALLOZZI": "05:59.0",
-        "PANIZZA": "05:42.0",
-        "PAPPALEPORE": "05:59.0",
-        "PAPPALETTERA": "06:05.0",
-        "PAZZAGLI": "06:11.6",
-        "PEDROLA": "07:05.0",
-        "PELACCHI": "06:53.7",
-        "PERETTI": "06:01.0",
-        "PIETRA CAPRINA": "05:57.0",
-        "PRATI": "06:05.0",
-        "RAMBALDI": "05:44.0",
-        "RAMELLA": "07:14.0",
-        "RENZI": "06:06.0",
-        "RICELLI": "05:57.9",
-        "ROCCHI": "06:04.0",
-        "ROCEK": "06:48.0",
-        "ROCEK P": "06:09.0",
-        "RODINI": "06:58.7",
-        "ROSSI": "07:05.0",
-        "RUTA": "06:07.0",
-        "SANDRINI": "06:06.7",
-        "SARTORI": "05:55.3",
-        "SCALZONE": "06:04.0",
-        "SCIATTELLA": "07:08.0",
-        "SCOLARO": "07:15.0",
-        "SELVA": "06:07.0",
-        "SOARES": "06:05.0",
-        "SOLDO": "06:09.9",
-        "SORRENTINO": "06:07.0",
-        "SPIRITO": "07:07.0",
-        "TEDOLDI": "05:58.0",
-        "TERRAZZI": "06:47.0",
-        "TIMPANARO": "06:14.0",
-        "TORRE": "05:59.2",
-        "VERITà": "05:55.0",
-        "VICINO G": "05:52.0",
-        "VICINO L": "06:02.0",
-        "VICINO M": "06:01.0"
-    };
+    // URL corretto del tuo Google Sheet esportato in formato CSV.
+    // Ho convertito l'URL del tuo foglio di calcolo per renderlo accessibile.
+    const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/1a90srYh4IzzTe4OI-eaNvemVGc5CBrHeDZhSObfQZUc/pub?gid=0&single=true&output=csv';
 
     /**
-     * Converte una stringa di tempo (es. "MM:SS.S" o "MM.SS") in secondi totali.
+     * Funzione per convertire una stringa di tempo (es. "MM:SS.S") in secondi totali.
      * @param {string} timeString La stringa di tempo da convertire.
      * @returns {number} Il tempo totale in secondi.
      */
     function convertTimeToSeconds(timeString) {
-        // Gestisce il formato 06.01, convertendolo in 06:01
+        if (!timeString) return 0;
+        // Gestisce il formato "MM.SS", convertendolo in "MM:SS"
         if (timeString.includes('.')) {
             timeString = timeString.replace('.', ':');
         }
@@ -498,6 +313,51 @@
         percentageTimeDividedResultContainer.textContent = `Media Dispendio (${selectedPercentage}%): ${formattedFinalTimeDivided}`;
         percentageTimeDividedResultContainer.classList.remove('error-container');
     }
+
+    /**
+     * Funzione per caricare i dati dal Google Sheet e popolare il selettore
+     */
+    async function loadDataAndPopulateSelect() {
+        const selectElement = document.getElementById('nameSelect');
+        try {
+            const response = await fetch(SHEET_URL);
+            const csvText = await response.text();
+            
+            // Converte il testo CSV in un array di righe, saltando la prima (intestazione)
+            const rows = csvText.trim().split('\n').slice(1);
+            
+            // Pulisce le opzioni esistenti, tranne quella di default
+            selectElement.innerHTML = '<option value="">Seleziona un nome...</option>';
+            
+            // Itera su ogni riga per creare le opzioni e l'oggetto 'times'
+            rows.forEach(row => {
+                const [name, timeString] = row.split(',');
+                const cleanName = name.trim().toUpperCase();
+                const cleanTimeString = timeString.trim();
+                
+                // Ignora le righe senza nome o tempo
+                if (cleanName && cleanTimeString) {
+                    // Popola l'oggetto globale 'times' con i dati
+                    times[cleanName] = cleanTimeString;
+                    
+                    // Crea e aggiunge l'opzione alla lista a discesa
+                    const option = document.createElement('option');
+                    option.value = cleanName;
+                    option.textContent = cleanName;
+                    selectElement.appendChild(option);
+                }
+            });
+        } catch (error) {
+            console.error("Errore nel caricamento dei dati dal Google Sheet:", error);
+            selectElement.innerHTML = '<option value="">Errore di caricamento</option>';
+            // Sostituisce l'alert con un messaggio nell'interfaccia utente
+            document.getElementById('time-result-container').textContent = "Errore nel caricamento dei dati. Controlla la console.";
+            document.getElementById('time-result-container').classList.add('error-container');
+        }
+    }
+
+    // Chiama la funzione all'avvio della pagina
+    window.onload = loadDataAndPopulateSelect;
 </script>
 
 </body>
